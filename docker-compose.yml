@@ -6,4 +6,4 @@ mssql:
         - ACCEPT_EULA=Y
         - SA_PASSWORD=Secret1234
     volumes:
-        - './drive:/var/opt/mssql'
+        - './drive:/var/opt/mssql/data'
